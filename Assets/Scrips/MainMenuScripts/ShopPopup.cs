@@ -20,7 +20,7 @@ public class ShopPopup : MonoBehaviour
 	{
 		characterCoinsHolder.RestartCoins();
 
-		if (KeyValueData.SavedData.f_trajectory)
+		if (KeyValueData.SavedData.f_visualEffect)
 		{
 			trajectoryStatus.SetActive(false);
 			trajectoryStatusPurchased.SetActive(true);
@@ -63,7 +63,7 @@ public class ShopPopup : MonoBehaviour
 	{
 		if (isTrajectory)
 		{
-			KeyValueData.SavedData.f_trajectory = true;
+			KeyValueData.SavedData.f_visualEffect = true;
 			KeyValueData.SavedData.f_gold -= trajectoryCost;
 			KeyValueData.SaveProgress();
 		}

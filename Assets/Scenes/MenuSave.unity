@@ -1376,8 +1376,8 @@ MonoBehaviour:
   ballSpeedStatusPurchased: {fileID: 930203119}
   trajectoryStatusPurchased: {fileID: 1663093090}
   characterCoinsHolder: {fileID: 197267535}
-  trajectoryCost: 30
-  speedCost: 50
+  trajectoryCost: 4
+  speedCost: 6
 --- !u!1 &374459392
 GameObject:
   m_ObjectHideFlags: 0
@@ -1540,11 +1540,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 164c5e28543e70040b5cf230e571e2a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deleteStartData: 1
+  deleteStartData: 0
   defaultSave:
-    f_level: 5
-    f_gold: 40
-    f_trajectory: 0
+    f_level: 1
+    f_gold: 0
+    f_visualEffect: 0
     f_speed: 0
     f_volume: 1
     f_sfx: 1
@@ -2993,7 +2993,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: draws a shooting trajectory
+  m_text: ADDS SOME INTERACTIVE VISUAL EFFECTS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 99c0f1fdedaa94e4eb9ee981bfbfb1e8, type: 2}
   m_sharedMaterial: {fileID: 5364335637885523238, guid: 99c0f1fdedaa94e4eb9ee981bfbfb1e8, type: 2}
@@ -3020,7 +3020,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 71.1
+  m_fontSize: 66.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5339,7 +5339,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TRAJECTORY POPUP
+  m_text: VISUAL EFFECTS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 99c0f1fdedaa94e4eb9ee981bfbfb1e8, type: 2}
   m_sharedMaterial: {fileID: 5364335637885523238, guid: 99c0f1fdedaa94e4eb9ee981bfbfb1e8, type: 2}
