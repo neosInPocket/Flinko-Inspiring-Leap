@@ -41,7 +41,7 @@ public class EducationScene : MonoBehaviour
 
 		Touch.onFingerDown += NextHandler;
 
-		characterText.text = "WELCOME TO ONE LOVE PLINKO!";
+		characterText.text = "WELCOME TO FLINKO INSPIRING LEAP!";
 		currentHandler = FirstHandler;
 	}
 

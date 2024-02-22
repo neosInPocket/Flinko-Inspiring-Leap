@@ -40,7 +40,7 @@ public class Rotator : MonoBehaviour
 
 		var normal = GetNormal(CurrentCircle.transform.position - transform.position);
 		Physics2D.gravity = -(CurrentCircle.transform.position - transform.position).normalized * gravityForce;
-		rb.AddForce(normal * radialSpeed);
+		rb.AddForce(normal * radialSpeed * Time.deltaTime);
 	}
 
 	private Vector3 GetNormal(Vector2 vector)

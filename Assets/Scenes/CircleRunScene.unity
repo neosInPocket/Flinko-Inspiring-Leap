@@ -1562,7 +1562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6f682874d9fedf48a5bb9daa5f61075, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radialSpeeds: {x: 2, y: 2}
+  radialSpeeds: {x: 400, y: 200}
   spRenderer: {fileID: 762973532}
   rb: {fileID: 762973534}
   gravityForce: 3
