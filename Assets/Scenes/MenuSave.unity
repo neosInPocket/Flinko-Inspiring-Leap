@@ -1540,7 +1540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 164c5e28543e70040b5cf230e571e2a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deleteStartData: 1
+  deleteStartData: 0
   defaultSave:
     f_level: 1
     f_gold: 0
@@ -7634,7 +7634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5566038, g: 0.5539783, b: 0.5539783, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9685,7 +9685,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 98.6
+  m_fontSize: 93.45
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
