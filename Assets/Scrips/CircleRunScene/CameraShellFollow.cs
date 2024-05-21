@@ -75,7 +75,6 @@ public class CameraShellFollow : MonoBehaviour
 			bounceWalls.RefreshWalls();
 			firstCondition = current < destination && dir > 0;
 			secondCondition = current > destination && dir < 0;
-			Debug.Log(current);
 			yield return null;
 		}
 
@@ -94,7 +93,7 @@ public class CameraShellFollow : MonoBehaviour
 
 		while (distance > epsMagnitude)
 		{
-			if (magn > 1)
+			if (Vector2.Angle(dir, target - transform.position) > Mathf.PI / 2)
 			{
 				transform.position = target;
 				bounceWalls.RefreshWalls();
@@ -106,6 +105,7 @@ public class CameraShellFollow : MonoBehaviour
 			distance = Vector2.Distance(target, current);
 			magn = distance / startDist;
 			bounceWalls.RefreshWalls();
+
 			yield return null;
 		}
 

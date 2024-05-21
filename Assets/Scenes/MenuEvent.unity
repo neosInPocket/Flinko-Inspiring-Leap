@@ -617,7 +617,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &213205020
 RectTransform:
   m_ObjectHideFlags: 0
@@ -882,7 +882,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &347755230
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1747,7 +1747,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: FLINKO INSPIRING LEAP
+  m_text: 'Lucky Jet: Sky Impulse'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c88e2d4b3efb6d243977a4be27c0aa1e, type: 2}
   m_sharedMaterial: {fileID: -5568586223606347449, guid: c88e2d4b3efb6d243977a4be27c0aa1e, type: 2}
@@ -1774,12 +1774,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100.67
+  m_fontSize: 101.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 100.67
+  m_fontSizeMax: 108.75
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -2551,7 +2551,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5566995, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -5.6642146, y: 0.0000038146973}
+  m_SizeDelta: {x: 0, y: 0.0000038146973}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &897527391
 MonoBehaviour:
@@ -4054,7 +4054,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4092,7 +4092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AspectMode: 4
-  m_AspectRatio: 0.56312627
+  m_AspectRatio: 0.46191406
 --- !u!1 &1549553864
 GameObject:
   m_ObjectHideFlags: 0
@@ -4150,7 +4150,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fabf9b191bfc8fc4da3dee6c5a57deec, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9694babb1faa4d04b86f919da291b9e9, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -4358,7 +4358,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fabf9b191bfc8fc4da3dee6c5a57deec, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9694babb1faa4d04b86f919da291b9e9, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -4433,7 +4433,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c90cf633905adda4789fdd6328bdc540, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a9375d676f0dce144a9c7ebced7488c8, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -4576,7 +4576,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fabf9b191bfc8fc4da3dee6c5a57deec, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9694babb1faa4d04b86f919da291b9e9, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -4708,7 +4708,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.4433005, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.010986328}
-  m_SizeDelta: {x: -5.637878, y: 0.021944765}
+  m_SizeDelta: {x: 0, y: 0.021944765}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1770467227
 MonoBehaviour:
@@ -5682,7 +5682,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fabf9b191bfc8fc4da3dee6c5a57deec, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9694babb1faa4d04b86f919da291b9e9, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

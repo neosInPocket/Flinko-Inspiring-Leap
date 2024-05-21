@@ -10,6 +10,8 @@ public class SerializedAudio : MonoBehaviour
 
 	private void Awake()
 	{
+		Application.targetFrameRate = 15;
+
 		if (Singleton != null)
 		{
 			Destroy(gameObject);

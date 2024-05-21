@@ -24,7 +24,7 @@ public class StartCutScene : MonoBehaviour
 
 		Touch.onFingerDown += NextOrderAction;
 
-		guideCaption.text = "WELCOME TO [game name action]!";
+		guideCaption.text = "WELCOME TO Lucky Jet: Sky Impulse!";
 		CurrentOrderAction = InitialAction;
 	}
 
