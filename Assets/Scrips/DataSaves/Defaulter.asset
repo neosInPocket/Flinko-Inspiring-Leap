@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 950832327a14c504c918be7c18199f0e, type: 3}
+  m_Name: Defaulter
+  m_EditorClassIdentifier: 
+  playOrderDefault: 1
+  shardsDefault: 0
+  skill1Default: 0
+  skill2Default: 0
+  audioConnectionDefault: 1
+  effectsConnectionDefault: 1
+  gameInstructionsDefault: 1

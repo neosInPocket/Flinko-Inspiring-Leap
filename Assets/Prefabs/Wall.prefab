@@ -143,4 +143,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a1b350586451e04f94b7d241ecde393, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpriteRenderer: {fileID: 2272365614752218009}
+  bounceWallRenderer: {fileID: 2272365614752218009}

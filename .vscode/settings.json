@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "OneLovePlinko.sln"
+    "dotnet.defaultSolution": "Flinko-Inspiring-Leap.sln"
 }
